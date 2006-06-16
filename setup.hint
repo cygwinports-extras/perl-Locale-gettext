@@ -1,0 +1,4 @@
+category: Perl
+requires: cygwin perl libintl3
+sdesc: "Perl module for using gettext and libintl"
+ldesc: "Perl module which allows access to the gettext library and NLS."
