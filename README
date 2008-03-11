@@ -3,18 +3,16 @@ perl-Locale-gettext
 Perl module which allows access to the gettext library and NLS.
 
 Runtime requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   libintl8-0.15-1
-  perl-5.8.8-4
+  perl-5.10.0-3
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.8-4
 
 Canonical homepage:
   http://search.cpan.org/~pvandry/gettext/
@@ -39,20 +37,18 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Locale-gettext.sh
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Locale/gettext.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Locale/gettext/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Locale/gettext/gettext.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Locale/gettext/gettext.dll
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Locale/gettext/libgettext.dll.a
-  /usr/share/doc/Cygwin/perl-Locale-gettext-1.05.README
   /usr/share/doc/perl-Locale-gettext-1.05/README
   /usr/share/man/man3/Locale.gettext.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Locale-gettext.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.05-3 -----
+Rebuilt for perl-5.10.
 
 ----- version 1.05-2 -----
 Rebuilt against libintl8.

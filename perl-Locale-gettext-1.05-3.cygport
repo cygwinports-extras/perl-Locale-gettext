@@ -1,0 +1,4 @@
+CPAN_AUTHOR=pvandry
+ORIG_PN=gettext
+
+inherit perl
