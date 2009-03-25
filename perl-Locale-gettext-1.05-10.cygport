@@ -2,3 +2,5 @@ CPAN_AUTHOR=pvandry
 ORIG_PN=gettext
 
 inherit perl
+
+PATCH_URI="1.05-as-needed.patch"

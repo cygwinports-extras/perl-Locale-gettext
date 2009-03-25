@@ -1,4 +1,4 @@
 category: Perl
-requires: cygwin perl libintl8
+requires: cygwin libgcc1 libintl8 perl
 sdesc: "Perl module for using gettext and libintl"
 ldesc: "Perl module which allows access to the gettext library and NLS."
