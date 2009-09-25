@@ -3,15 +3,15 @@ perl-Locale-gettext
 Perl module which allows access to the gettext library and NLS.
 
 Runtime requirements:
-  cygwin-1.7.0-44
+  cygwin-1.7.0-61
   libgcc1-4.3.2-2
-  libintl8-0.17-10
+  libintl8-0.17-11
   perl-5.10.0-5
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-20080624-2
-  cygport-0.9.6-1
+  binutils-2.19.51-1
+  cygport-0.9.9-1
   gcc4-core-4.3.2-2
   make-3.81-2
 
@@ -47,6 +47,10 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.05-11 -----
+Applied Debian patches, including fix for compat with 5.10 POSIX module:
+http://rt.cpan.org/Public/Bug/Display.html?id=35680
 
 ----- version 1.05-10 -----
 Initial release for Cygwin 1.7.

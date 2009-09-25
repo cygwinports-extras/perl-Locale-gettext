@@ -1,0 +1,9 @@
+CPAN_AUTHOR=pvandry
+ORIG_PN=gettext
+
+inherit perl
+
+PATCH_URI="1.05-as-needed.patch
+	http://patch-tracker.debian.org/patch/series/dl/liblocale-gettext-perl/1.05-4/doc-update.diff
+	http://patch-tracker.debian.org/patch/series/dl/liblocale-gettext-perl/1.05-4/compatibility-with-POSIX-module.diff
+"
